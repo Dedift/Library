@@ -1,11 +1,11 @@
 package main.exception;
 
-public class DataAccessException extends RuntimeException {
-    public DataAccessException(String message) {
+public class DataBaseException extends RuntimeException {
+    public DataBaseException(String message) {
         super(message);
     }
 
-    public DataAccessException(String message, Throwable cause) {
+    public DataBaseException(String message, Throwable cause) {
         super(message, cause);
     }
 }
